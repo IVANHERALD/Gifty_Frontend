@@ -1,0 +1,19 @@
+.Category{
+    border-radius: 40px;
+    height: 80px;
+    font-size: large;
+    width: 100px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:aliceblue;
+
+}
+.Categories>div{
+    display: flex;
+    
+
+    height: 70px;
+}

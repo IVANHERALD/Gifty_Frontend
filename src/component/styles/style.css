@@ -1,0 +1,80 @@
+.app {
+    display: flex;
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ASRgVz6Msk536p5WjZlCGO-eAZKfT2-JAkGMNL932l3BD6lyyBMlvkUxck7NYE7eeqg&usqp=CAU");
+    */
+    background-image: url("../Images/cover.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width:100%;
+    height:102vh;
+   }
+   /*
+   .Input-container-main{
+   
+     width:1300px;
+     height:930px;
+     
+
+  
+     
+   }*/
+   
+   .Input-container-login{
+     background-color:white;
+     margin-top: 75px;
+     margin-left: 1250px;
+     width:500px;
+     height:470px;
+     padding-top: 60px;
+   color: #cbb26a;
+     border-radius: 25px;
+     background-color:rgba(75, 79, 85, 0.232);
+     opacity: 5;
+    }
+   
+   .Input-container-register{
+    background-color:white;
+    margin-top: 75px;
+    margin-left: 1250px;
+    width:500px;
+    height:470px;
+    padding-top: 60px;
+  color: #cbb26a;
+    border-radius: 25px;
+    background-color:rgba(75, 79, 85, 0.232);
+    opacity: 5;
+   
+   }
+   /*
+   .Input-container-image
+   {
+     background-color: white;
+     margin-top: 75px;
+     width:500px;
+     height:530px;
+     border-radius: 25px;
+   }
+   
+   .image{
+     height:500px;
+     border-radius: 25px;
+     width: 450px;
+   
+   }
+   */
+   #outlined{
+    color: white;
+    border:  1px solid #cbb26a;
+    
+   }
+   
+   
+   
+  #button{
+    background-color: #cbb26a;
+  }
+  #button:hover{
+    color: #000;
+  }

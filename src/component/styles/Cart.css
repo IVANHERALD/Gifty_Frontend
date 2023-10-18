@@ -1,0 +1,29 @@
+.cart_items{
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+
+}
+.image{
+    width: 270px;
+    height: 210px;
+    align-items: center;
+    align-content: center;
+    margin-top: auto;
+    padding-top: 10px;
+}
+.cart_item{
+    border: 10px;
+    background-color: #f9eed0;
+    width: 290px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 9px;
+}
+.quantity_control{
+    gap: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

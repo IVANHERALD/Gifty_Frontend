@@ -1,0 +1,43 @@
+.footer{
+    background-color: black;
+    color: white;
+    font-size: large;
+    
+    
+  
+}
+.sub{
+    display:flex;
+    align-items: stretch; 
+    column-gap: 5px;
+   height: 120px;
+   width: auto;
+
+}
+
+#footer-img{
+    display: block;
+    width: 200px; 
+    height: 90px;
+}
+.footer-image{
+    background-color:#f1f2f2;
+
+}
+#footer-img-1{
+  
+    width: 870px; 
+    height: 80px;
+}
+
+.footer_text{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   display: block;
+    text-align: justify;
+    font-family: "SimSun";
+    font-style: italic;
+    /* color: #cbb26a; */
+    color:white;
+}
