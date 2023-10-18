@@ -16,7 +16,7 @@ function Cart() {
   
   const handleCart = async () => {
     try {
-      const response = await fetch(`/gift/giftsbyemail?email=${currentemail}`);
+      const response = await fetch(`https://gifty-backend2.onrender.com/gift/giftsbyemail?email=${currentemail}`);
       if (response.ok) {
         const data = await response.json();
         setSearchResults(data.Gift);

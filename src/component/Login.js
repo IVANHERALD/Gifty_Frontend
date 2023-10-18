@@ -20,7 +20,7 @@ function Login() {
     };
   
     try {
-      const response = await fetch('gift/login', { // Replace with your server URL
+      const response = await fetch('https://gifty-backend2.onrender.com/gift/login', { // Replace with your server URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

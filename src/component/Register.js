@@ -18,7 +18,7 @@ function Register() {
     };
 
     try {
-      const response = await fetch('gift/signup', { // Replace with your server URL
+      const response = await fetch('https://gifty-backend2.onrender.com/gift/signup', { // Replace with your server URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -79,7 +79,7 @@ const addcart=async(gift)=>{
 
   const fetchGifts = async () => {
     try {
-      const response = await fetch('gift/getAllGift'); 
+      const response = await fetch('https://gifty-backend2.onrender.com/gift/getAllGift'); 
 
       if (response.status === 200) {
         const data = await response.json();
@@ -98,7 +98,7 @@ const addcart=async(gift)=>{
   const handleCategory = async (categoryName) => {
 
     try {
-      const response = await fetch(`/gift/searchcategory?category=${categoryName}`);
+      const response = await fetch(`https://gifty-backend2.onrender.com/gift/searchcategory?category=${categoryName}`);
       if (response.ok) {
         const data = await response.json();
         setsearchvalue(data.Gift);

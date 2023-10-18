@@ -54,7 +54,7 @@ const storeDetails=async(event)=>{
     MobileNo, Pincode, Locality1, Address1, Landmark, AlternatePhoneno,city,state,items:searchResults
   };
   try {
-    const response = await fetch('gift/orderDetails', { 
+    const response = await fetch('https://gifty-backend2.onrender.com/gift/orderDetails', { 
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

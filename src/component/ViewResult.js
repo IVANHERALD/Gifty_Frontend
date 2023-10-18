@@ -4,6 +4,7 @@ import { useAuthValue } from './AuthContext';
 import './styles/Cart.css'
 import { Button } from '@mui/material';
 import addcartgif from './Images/addcartgif.gif'
+import Footer  from './Footer';
 
 function ViewResult() {
   const{currentemail} = useAuthValue();
@@ -26,7 +27,7 @@ function ViewResult() {
     };
   
     try {
-      const response = await fetch('gift/addtocart', { 
+      const response = await fetch('https://gifty-backend2.onrender.com/gift/addtocart', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -79,6 +80,7 @@ function ViewResult() {
         <div className='popup'>
           <img src={addcartgif}/>
         </div>)}
+        
     </div>
   );
 }

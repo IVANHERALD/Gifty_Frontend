@@ -29,7 +29,7 @@ function Header() {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`/gift/searchGift?name=${searchTerm}`);
+      const response = await fetch(`https://gifty-backend2.onrender.com/gift/searchGift?name=${searchTerm}`);
       if (response.ok) {
         const data = await response.json();
         if (data.Gift.length === 0) {
