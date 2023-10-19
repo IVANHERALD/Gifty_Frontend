@@ -1,5 +1,11 @@
 # Online Gift Store(Gifty)
 "Gifty" is an e-commerce project with features for online gift shopping built using MERN stack. It includes user registration, address details collection, and payment processing. Users can add items to their cart, choose gift categories, and proceed through a step-based checkout process to complete their purchase.
+
+Backend repository: https://github.com/IVANHERALD/Gifty_backend  <br/>
+Frontend Deployment link:  https://gifty-frontend.vercel.app/  <br/>
+Backend Deployment link:  https://gifty-backend2.onrender.com  <br/>
+
+
 ## Authentication
 ## Login Page
 Securely authenticate users with email and password.
